@@ -16,12 +16,19 @@ Using the slicing concept rotate the list
 ### Step 6: 
 ## Program:
 a=eval(input())
+
 b=eval(input())
+
 def circulate():
+
     for n in range(b+1):
+
         c=a[n:]+a[:n]
+
     return c
+    
 print("After circulating the values are:",circulate())
+
 
 ## Output:
 ![circulate.png](./circulate.png)
